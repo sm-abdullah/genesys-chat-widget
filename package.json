@@ -39,7 +39,9 @@
     "typescript": "^2.8.3"
   },
   "dependencies": {
+    "@types/cometd": "^4.0.0",
     "@types/jquery": "^3.3.12",
+    "cometd": "^4.0.0",
     "jquery": "^3.3.1"
   }
 }
