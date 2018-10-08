@@ -1,13 +1,13 @@
-require.config({
-    baseUrl: "./",
-    paths: {
-      "org/cometd": 'node_modules/cometd-jquery/org/cometd',
-      "jquery.cometd": 'node_modules/cometd-jquery/jquery/jquery.cometd',
-    }
-});
-
+// require.config({
+//     baseUrl: "./",
+//     paths: {
+//       "org/cometd": 'node_modules/cometd-jquery/org/cometd',
+//       "jquery.cometd": 'node_modules/cometd-jquery/jquery/jquery.cometd',
+//     }
+// });
+require('jquery');
+require("cometd")
 import { Genesys, MyWindow, Main,Widgets} from './ss';
-require ("jquery")
 let myWindow = window as MyWindow;
 declare var require: any;
 if(!myWindow._genesys)myWindow._genesys = { text: "hello" } as Genesys;
