@@ -1,1 +1,1 @@
-# genesys-chat-widget s
+# my-test-widget-chat

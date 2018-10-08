@@ -1,7 +1,7 @@
 {
-  "name": "my-awesome-greeter",
-  "version": "1.0.1",
-  "description": "A nice greeter",
+  "name": "my-test-widget-chat",
+  "version": "1.0.11",
+  "description": "my-test-widget-chat",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sm-abdullah/genesys-chat-widget.git"
+    "url": "git+https://github.com/caki0915/my-awesome-greeter"
   },
   "keywords": [
     "Hello",
@@ -37,5 +37,9 @@
     "tslint": "^5.10.0",
     "tslint-config-prettier": "^1.13.0",
     "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.12",
+    "jquery": "^3.3.1"
   }
 }
