@@ -1,6 +1,6 @@
 {
   "name": "my-test-widget-chat",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "my-test-widget-chat",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -30,7 +30,9 @@
   },
   "homepage": "https://github.com/caki0915/my-awesome-greeter#readme",
   "devDependencies": {
+    "@types/cometd": "^4.0.0",
     "@types/jest": "^22.2.3",
+    "@types/jquery": "^3.3.12",
     "jest": "^23.0.1",
     "prettier": "^1.13.2",
     "ts-jest": "^22.4.6",
@@ -39,9 +41,8 @@
     "typescript": "^2.8.3"
   },
   "dependencies": {
-    "@types/cometd": "^4.0.0",
-    "@types/jquery": "^3.3.12",
     "cometd": "^4.0.0",
+    "cometd-jquery": "^3.0.0",
     "jquery": "^3.3.1"
   }
 }

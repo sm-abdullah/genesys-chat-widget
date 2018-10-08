@@ -1,9 +1,11 @@
 export interface MyWindow extends Window  {
     _genesys: Genesys;
+    _gt: any
 }
 
 export interface Genesys {
     widgets : Widgets;
+    text: string;
 }
 
 export interface Widgets {
