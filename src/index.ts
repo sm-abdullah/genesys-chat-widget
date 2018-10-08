@@ -1,3 +1,10 @@
+require.config({
+    baseUrl: "./",
+    paths: {
+      "org/cometd": 'node_modules/cometd-jquery/org/cometd',
+      "jquery.cometd": 'node_modules/cometd-jquery/jquery/jquery.cometd',
+    }
+});
 
 import { Genesys, MyWindow, Main,Widgets} from './ss';
 require ("jquery")
