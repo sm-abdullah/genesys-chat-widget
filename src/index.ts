@@ -1,7 +1,7 @@
 
 import * as  jquery from "jquery";
-
-import  "cometd";
+import { CometD } from 'cometd';
+import "org/cometd";
 import  "cometd-jquery";
 import "./widgets.min";
 import { Genesys, MyWindow, Main,Widgets} from './ss';
